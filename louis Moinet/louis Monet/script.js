@@ -21,7 +21,7 @@ const showSlider=(type)=>{
     }
     else{
         let positionLast=items.length -1;
-        listHTML.prepend(items[positionLast]);
+        // listHTML.prepend(items[positionLast]);
         page5.classList.add('prev')
     }
     clearInterval(refreshpro)

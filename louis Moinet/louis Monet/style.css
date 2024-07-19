@@ -57,7 +57,7 @@ video{
     padding: 5px;
     height: 100%;
     width: 100%;
-    animation: scl 3s 5s forwards;
+    animation: scale 3s 5s forwards;
 }
 @keyframes idx {
     to{
@@ -69,7 +69,7 @@ video{
         overflow: auto;
     }
 }
-@keyframes scl {
+@keyframes scale {
     from{
         transform: scale(0);
         opacity: 0;
